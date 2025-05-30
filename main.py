@@ -10,5 +10,5 @@ if __name__ == "__main__":
        wgan_training_itts=2000,
        wgan_num_paths=1000
 )
-    print("\nExperiment run finished. Displaying final results DataFrame head:")
-    print(results_df.head())
+    print("\nExperiment run finished. Displaying final results DataFrame:")
+    print(results_df)
