@@ -400,7 +400,3 @@ def run_heston_rl_experiment(
     df.to_csv(csv_path, index=False)
     print(f"[INFO] Results saved to {csv_path}")
     return df
-
-
-if __name__ == "__main__":
-    run_heston_rl_experiment(num_worlds=100)
